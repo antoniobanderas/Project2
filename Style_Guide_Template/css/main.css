@@ -58,7 +58,7 @@ code {
 }
 
 /* Styling for submit buttons */
-.button {
+.button-submit {
   display: inline-block;
   border-radius: 5px;
   padding: 0.75em 0.5em;
@@ -70,7 +70,7 @@ code {
   transition: color 0.5s ease-out;
 }
 
-.button:hover, .button:focus {
+.button-submit:hover, .button-submit:focus {
   color: #999;
   -webkit-transition: color 0.5s ease-out;
   transition: color 0.5s ease-out;
