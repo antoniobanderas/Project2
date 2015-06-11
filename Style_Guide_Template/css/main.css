@@ -57,6 +57,26 @@ code {
   transition: color 0.5s ease-out;
 }
 
+/* Styling for submit buttons */
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0.75em 0.5em;
+  color: #FFF;
+  background-color: #333;
+  /*border-radius: 0.25em;*/
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.button:hover, .button:focus {
+  color: #999;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+
 
 /* 
   TEXT ELEMENTS -------------------
