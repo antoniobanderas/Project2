@@ -24,6 +24,7 @@ section p {
 section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
+  display: inline-block;
 }
 
 
@@ -52,9 +53,56 @@ section code {
 
 /* 
   TEXT ELEMENTS -------------------
+
+  FONT CLASSES ELEMENTS -------------------
 */
 
+.helvetica-bold{
+  margin:0em;
+  font-size: 3em;
+}
 
+.helvetica-bold-italic{
+  font-size: 3em;
+  margin:0em;
+  font-style: italic;
+}
+
+.helvetica-standard{
+  margin-top:0.3em;
+  margin-bottom:0em;
+  font-weight: 100;
+  font-size:3em;
+}
+
+.helvetica-standard-italic{
+  margin:0em;
+  font-weight: 100;
+  font-size:3em;
+  font-style: italic;
+}
+
+/* 
+  HEADING CLASSES ELEMENTS ----------------
+*/
+
+.header-one{
+  margin-top: 0em;
+  margin-bottom: -0.3em;
+  font-size: 4em;
+}
+
+.header-two{
+  margin-top: 0.5em;
+  margin-bottom: -0.3em;
+  font-size: 3em;
+}
+
+.header-three{
+  margin-top:0.5em;
+  margin-bottom: -0.3em;
+  font-size: 2em;
+}
 
 
 /* 
