@@ -27,6 +27,13 @@ section code {
   display: inline-block;
 }
 
+code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  white-space: pre;
+  display: block;
+}
+
 
 /* 
   INTERACTIVE ELEMENTS -------------------
