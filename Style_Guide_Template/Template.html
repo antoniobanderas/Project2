@@ -16,7 +16,7 @@
 
     <h1>Style Guide Template</h1>
 
-    <p>A template you can use to start building out your own style guides with.</p>
+    <p>By Michael Hsu and Tommy Ma</p>
 
 
     <nav>
@@ -81,6 +81,49 @@
 
       <section>
         <h2>Text Input Field</h2>
+
+        
+        <h3>CSS Selector:</h3>
+        <p>form</p>
+
+        <h3>Sample code:</h3>
+        <code>
+&lt;form method="post" action="#"&gt;
+
+  &lt;label for="form-name"&gt;Name:&lt;/label&gt;
+        
+  &lt;input type="text" id="form-name" placeholder="Jane Doe"&gt;
+
+  &lt;label for="form-subject"&gt;Subject:&lt;/label&gt;
+  &lt;input type="text" id="form-subject" placeholder="A title for your comment"&gt;
+        
+  &lt;label for="form-comment"&gt;Comment:&lt;/label&gt;
+        
+  &lt;textarea id="form-comment" placeholder="Please place comment here"&gt;&lt;/textarea&gt;
+
+  &lt;input type="submit" value="Submit your comment" class="button-submit"&gt;
+
+&lt;/form&gt;
+        </code>
+
+        <h3>Rendered Element:</h3>
+
+        <form method="post" action="#">
+
+        <label for="form-name">Name:</label>
+        
+        <input type="text" id="form-name" placeholder="Jane Doe">
+
+        <label for="form-subject">Subject:</label>
+        <input type="text" id="form-subject" placeholder="A title for your comment">
+        
+        <label for="form-comment">Comment:</label>
+        
+        <textarea id="form-comment" placeholder="Please place comment here"></textarea>
+
+        <input type="submit" value="Submit your comment" class="button-submit">
+
+        </form>
       </section>
 
     </section>
@@ -91,10 +134,10 @@
     <section id="text_elements">
       <section>
         <h2>Font</h2>
-        <h1 class="helvetica-bold">Helvetica</h1>
-        <h1 class="helvetica-bold-italic">Helvetica</h1>
+        <h1 class="helvetica-bold">Helvetic Bold</h1>
+        <h1 class="helvetica-bold-italic">Helvetica Bold Italic</h1>
         <h1 class="helvetica-standard">Helvetica</h1>
-        <h1 class="helvetica-standard-italic">Helvetica</h1>
+        <h1 class="helvetica-standard-italic">Helvetica Italic</h1>
 
       <section>
         <h2>Headings</h2>

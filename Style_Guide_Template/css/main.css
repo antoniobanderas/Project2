@@ -76,6 +76,38 @@ code {
   transition: color 0.5s ease-out;
 }
 
+/* Text input box */
+form {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid black;
+  /*width: 80%;*/
+}
+
+label {
+  display: block; /* stack forms */
+}
+
+textarea {
+  /*border: 1px solid black;*/
+  width: 165px;
+}
+
+input {
+  /*border: 1px solid black;*/
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+  margin: auto;
+}
+
+/* Get rid of ugly border on submit form button */
+input[type="submit"] {
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+}
+
 
 
 /* 
