@@ -9,6 +9,7 @@
 
 
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
 
   </head>
 
@@ -58,11 +59,11 @@
         <p>p</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#"&gt;This is a link.&lt;/a&gt;</code>
+        <code>&lt;a class="product-link "href="#"&gt;This is a link.&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
         <p>
-          <a href="#">This is a link.</a>
+          <a class="product-link" href="#">This is a link.</a>
         </p>
       </section>
 
@@ -146,7 +147,7 @@
         </code>
 
         <h3>Rendered Element:</h3>
-        <h1 class="helvetica-bold">Helvetic Bold</h1>
+        <h1 class="helvetica-bold">Helvetica Bold</h1>
         <h1 class="helvetica-bold-italic">Helvetica Bold Italic</h1>
         <h1 class="helvetica-standard">Helvetica</h1>
         <h1 class="helvetica-standard-italic">Helvetica Italic</h1>
@@ -201,6 +202,7 @@
 &lt;p&gt;Lorem ipsum dolor sit amet...&lt;/p&gt;
         </code>
 
+        <h3>Rendered Element:</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sapien urna, blandit eget gravida quis, cursus sit amet massa. Mauris scelerisque nulla sed odio imperdiet, in feugiat ipsum vestibulum. Nunc gravida placerat dolor, a accumsan augue. Nullam bibendum libero at nisl interdum, a molestie velit efficitur.</p>
         
       </section>
@@ -283,8 +285,60 @@
 
       <section>
         <h2>Product Listing</h2>
+
+        <h3>CSS Selector:</h3>
+        <p>.product-list, .product-name, .product-layout, .product-link</p>
+
+        <h3>Sample Code:</h3>
+        <code>
+&lt;div class="example-product-list"&gt;
+  &lt;div class="product-layout"&gt;
+    &lt;a class="product-link" href="#"&gt;
+      &lt;img src="img/placeholder.jpg" alt="placeholder image" width="200" height="150"&gt;
+      &lt;p class="product-name">Security Guards&lt;/p&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+...
+        </code>
+
+        <h3>Rendered Element:</h3>
+
+        <div class="example-product-list">
+          <div class="product-layout">
+            <a class="product-link" href="#">
+              <img src="img/placeholder.jpg" alt="placeholder image" width="200" height="150">
+              <p class="product-name">Security Guards</p>
+            </a>
+          </div>
+
+          <div class="product-layout">
+            <a class="product-link"  href="#">
+              <img src="img/placeholder.jpg" alt="placeholder image" width="200" height="150">
+              <p class="product-name">Armoured Trucks</p>
+            </a>
+          </div>
+
+          <div class="product-layout">
+            <a class="product-link"  href="#">
+              <img src="img/placeholder.jpg" alt="placeholder image" width="200" height="150">
+              <p class="product-name">Bike Patrol</p>
+            </a>
+          </div>
+
+          <div class="product-layout">
+            <a class="product-link" href="#">
+              <img src="img/placeholder.jpg" alt="placeholder image" width="200" height="150">
+              <p class="product-name">VIP Services</p>
+            </a>
+          </div>
+        </div>
       </section>
 
+    </section>
+
+    <section>
+      <h3>Sitemap</h3>
+      <img src="img/P02_Site_Map.png" height="720" width="1280" alt="sitemap picture">
     </section>
 
   </body>
