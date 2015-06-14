@@ -31,3 +31,14 @@ body {
   -webkit-transition: color 0.5s ease-out;
   transition: color 0.5s ease-out;
 }
+
+.section1 {
+  position: relative;
+}
+
+.fullscreen-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
