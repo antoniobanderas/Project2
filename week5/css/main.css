@@ -1,0 +1,33 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav-bar {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #333;
+}
+
+.header {
+	margin-top: 2em;
+}
+
+/* Styling for the navigation button */
+.button-nav {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em 0.75em;
+  color: #FFF;
+  background-color: #333;
+  /*border-radius: 0.25em;*/
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  color: #999;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
