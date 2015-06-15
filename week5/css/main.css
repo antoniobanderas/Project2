@@ -1,13 +1,22 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+img {
+  height: auto; 
+  width: auto;
+  max-width: 100%;
 }
 
 #nav-bar {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	background-color: #333;
+  z-index: 10;
 }
 
 .header {
@@ -32,13 +41,19 @@ body {
   transition: color 0.5s ease-out;
 }
 
-.section1 {
-  position: relative;
-}
 
 .fullscreen-img {
-  width: 100%;
-  height: 100%;
-  position: relative;
+  width: 100%;  
 }
 
+.section {
+  z-index: 1;
+  width: 40%;
+  position: absolute;
+  left: 5em;
+  top: 15em;
+}
+
+.section-header {
+  font-size: 4em;
+}
