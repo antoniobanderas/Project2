@@ -4,7 +4,7 @@ body {
   line-height: 1.5em;
 }
 
-/*img {
+img {
   height: auto; 
   width: auto;
   max-width: 100%;
@@ -20,7 +20,10 @@ body {
 	top: 0;
 	left: 0;
 	background-color: #333;
+
   z-index: 10;
+  z-index: 5;
+
 }
 
 .header {
@@ -53,9 +56,23 @@ body {
   position: relative;
   margin-bottom: -1em;
 }
+/*=======
+h1 {
+  z-index: 5;
+  color: #cecece;
+  text-align: center;
+  position:relative;
+  top:7.5em;
+}*/
+
+/*.section1 {
+  position: relative;
+  bottom:4.5em;
+
+}*/
 
 .section-header1 {
-  width: 40%;
+ /* width: 100%;
   line-height: 1em;
   margin-bottom: 0.5em;
   position: absolute;
@@ -63,22 +80,39 @@ body {
   font-size: 3em;
   left: 2em;
   top: 5em;
+  text-align: center;
+  font-size: 10em;*/
+
+  text-align: center;
+  font-size:4em;
+  z-index: 1;
+  font-weight: 900;
+  position: relative;
+  bottom: 9em;
+  color: #eee;
 }
 
 .section-text1 {
-  width: 40%;
+/*  width: 40%;
   position: absolute;
   z-index: 1;
   left: 6em;
-  top: 20em;
+  top: 20em;*/
+  text-align: center;
+  width:62%;
+  left:15em;
+  color:#eee;
+  
+  position: relative;
+  bottom: 35em;
 }
 
 /* Section 2 */
 
-.section2 {
+/*.section2 {
   position: relative;
   margin-bottom: -1em;
-}
+}*/
 
 .section-header2 {
   width: 40%;
@@ -86,7 +120,7 @@ body {
   margin-bottom: 0.5em;
   position: absolute;
   z-index: 1;
-  font-size: 3em;
+  font-size: 10em;
   left: 2em;
   top: 5em;
 }
@@ -124,5 +158,20 @@ body {
   z-index: 1;
   right: 6em;
   top: 26em;
+=======
+  top:7em;
 }
+
+.section1-header1 {
+  text-align: center;
+  z-index: 5;
+  font-size: 4em;
+  position:relative;
+  bottom:4em;
+  color:#cecece;
+}
+
+
+
+
 
