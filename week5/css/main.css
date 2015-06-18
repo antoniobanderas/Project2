@@ -86,11 +86,15 @@ h2 {
   bottom: 23em;
 
 }
-/* Section 1.5 */
+/* Section 2 */
 
 .section2{
-  position: absolute;
+  position: relative;
   margin-bottom: -1em;
+  width:100%;
+  height:100%;
+  background-color: white;
+  display: block;
 }
 
 .section-header2{
@@ -111,15 +115,14 @@ h2 {
   top: 50em;
 }
 
-/* Section 2 */
+/* Section 3 */
 
-.section2 {
+.section3 {
     position: relative;
     margin-bottom: -1em;
   }
 
-<<<<<<< Updated upstream
-.section-header2 {
+.section-header3 {
     width: 40%;
     line-height: 1em;
     margin-bottom: 0.5em;
@@ -129,7 +132,7 @@ h2 {
     top: 15rem;
   }
 
-.section-text2 {
+.section-text3 {
     width: 40%;
     position: absolute;
     z-index: 1;
@@ -158,7 +161,7 @@ h2 {
   }
 }*/
 
-=======
+
 /*.section-header2 {
   width: 40%;
   line-height: 1em;
@@ -178,18 +181,18 @@ h2 {
   left:8em;
   top: 54em;
 }*/
->>>>>>> Stashed changes
 
-/* Section 3 */
 
-.section3 {
+/* Section 5 */
+
+.section5 {
   position: relative;
   margin-bottom: -1em;
 
 }
 
-.section-header3 {
-  width: 40%x;
+.section-header5 {
+  width: 40%;
   line-height: 1em;
   margin-bottom: 0.5em;
   position: absolute;
@@ -198,7 +201,7 @@ h2 {
   top: 18rem;
 }
 
-.section-text3 {
+.section-text5 {
   width: 40%;
   position: absolute;
   z-index: 1;
@@ -206,14 +209,7 @@ h2 {
   top: 26em;
 }
 
-.section1-header1 {
-  text-align: center;
-  z-index: 5;
-  font-size: 4em;
-  position:relative;
-  bottom:4em;
-  color:#cecece;
-}
+
 
 
 
