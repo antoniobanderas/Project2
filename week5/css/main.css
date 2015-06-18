@@ -86,6 +86,30 @@ h2 {
   bottom: 23em;
 
 }
+/* Section 1.5 */
+
+.section2{
+  position: absolute;
+  margin-bottom: -1em;
+}
+
+.section-header2{
+  text-align: center;
+  font-size:4em;
+  z-index: 1;
+  font-weight: 900;
+  position: relative;
+  bottom: 9em;
+}
+
+.section-text2{
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  left:8em;
+  top: 50em;
+}
 
 /* Section 2 */
 
@@ -94,6 +118,7 @@ h2 {
     margin-bottom: -1em;
   }
 
+<<<<<<< Updated upstream
 .section-header2 {
     width: 40%;
     line-height: 1em;
@@ -133,6 +158,27 @@ h2 {
   }
 }*/
 
+=======
+/*.section-header2 {
+  width: 40%;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+  position: absolute;
+  z-index: 1;
+  font-size: 10em;
+  left: 2em;
+  top: 5em;
+}*/
+
+/*.section-text2 {
+  width: 80%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  left:8em;
+  top: 54em;
+}*/
+>>>>>>> Stashed changes
 
 /* Section 3 */
 
