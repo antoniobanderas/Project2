@@ -11,7 +11,7 @@ img {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 3em; 
 }
 
 .fullscreen-img {
@@ -28,7 +28,6 @@ h2 {
 	background-color: #333;
 
   z-index: 10;
-  z-index: 5;
 
 }
 
@@ -62,100 +61,40 @@ h2 {
   position: relative;
   margin-bottom: -1em;
 }
-/*=======
-h1 {
-  z-index: 5;
-  color: #cecece;
-  text-align: center;
-  position:relative;
-  top:7.5em;
-}*/
-
-/*.section1 {
-  position: relative;
-  bottom:4.5em;
-
-}*/
 
 .section-header1 {
- /* width: 100%;
-  line-height: 1em;
-  margin-bottom: 0.5em;
-  position: absolute;
-  z-index: 1;
-<<<<<<< Updated upstream
-  font-size: 3em;
-  left: 2em;
-  top: 5em;
-  text-align: center;
-  font-size: 10em;*/
-
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
   text-align: center;
   font-size:4em;
   z-index: 1;
   font-weight: 900;
-  position: relative;
-  bottom: 9em;
+  position: absolute;
+  bottom: 7em;
   color: #eee;
-=======
-  left: 6rem;
-  top: 15rem;
->>>>>>> Stashed changes
 }
 
 .section-text1 {
-/*  width: 40%;
-  position: absolute;
-  z-index: 1;
-<<<<<<< Updated upstream
-  left: 6em;
-  top: 20em;*/
   text-align: center;
-  width:62%;
-  left:15em;
+  width:60%;
+  margin-left: 20%;
+  margin-right: 20%;
+/*  left:15em;*/
   color:#eee;
-  
-  position: relative;
-  bottom: 35em;
-=======
-  left: 6rem;
-  top: 20rem
->>>>>>> Stashed changes
+  position: absolute;
+  bottom: 23em;
+
 }
 
 /* Section 2 */
 
-<<<<<<< Updated upstream
-/*.section2 {
-  position: relative;
-  margin-bottom: -1em;
-}*/
-
-.section-header2 {
-  width: 40%;
-  line-height: 1em;
-  margin-bottom: 0.5em;
-  position: absolute;
-  z-index: 1;
-  font-size: 10em;
-  left: 2em;
-  top: 5em;
-}
-
-.section-text2 {
-  width: 40%;
-  position: absolute;
-  z-index: 1;
-  left: 6em;
-  top: 26em;
-}
-=======
 .section2 {
     position: relative;
     margin-bottom: -1em;
   }
 
-  .section-header2 {
+.section-header2 {
     width: 40%;
     line-height: 1em;
     margin-bottom: 0.5em;
@@ -165,7 +104,7 @@ h1 {
     top: 15rem;
   }
 
-  .section-text2 {
+.section-text2 {
     width: 40%;
     position: absolute;
     z-index: 1;
@@ -193,7 +132,7 @@ h1 {
     top: 24em;
   }
 }*/
->>>>>>> Stashed changes
+
 
 /* Section 3 */
 
@@ -219,8 +158,6 @@ h1 {
   z-index: 1;
   right: 6em;
   top: 26em;
-=======
-  top:7em;
 }
 
 .section1-header1 {
