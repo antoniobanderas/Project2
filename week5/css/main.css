@@ -8,9 +8,15 @@ img {
   height: auto; 
   width: auto;
   max-width: 100%;
-}*/
+}
+
+h2 {
+  font-size: 3em;
+}
 
 .fullscreen-img {
+  height: auto; 
+  width: auto;
   max-width: 100%;
 }
 
@@ -77,6 +83,7 @@ h1 {
   margin-bottom: 0.5em;
   position: absolute;
   z-index: 1;
+<<<<<<< Updated upstream
   font-size: 3em;
   left: 2em;
   top: 5em;
@@ -90,12 +97,17 @@ h1 {
   position: relative;
   bottom: 9em;
   color: #eee;
+=======
+  left: 6rem;
+  top: 15rem;
+>>>>>>> Stashed changes
 }
 
 .section-text1 {
 /*  width: 40%;
   position: absolute;
   z-index: 1;
+<<<<<<< Updated upstream
   left: 6em;
   top: 20em;*/
   text-align: center;
@@ -105,10 +117,15 @@ h1 {
   
   position: relative;
   bottom: 35em;
+=======
+  left: 6rem;
+  top: 20rem
+>>>>>>> Stashed changes
 }
 
 /* Section 2 */
 
+<<<<<<< Updated upstream
 /*.section2 {
   position: relative;
   margin-bottom: -1em;
@@ -132,6 +149,51 @@ h1 {
   left: 6em;
   top: 26em;
 }
+=======
+.section2 {
+    position: relative;
+    margin-bottom: -1em;
+  }
+
+  .section-header2 {
+    width: 40%;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+    position: absolute;
+    z-index: 1;
+    left: 6rem;
+    top: 15rem;
+  }
+
+  .section-text2 {
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    left: 6em;
+    top: 26em;
+  }
+
+/*@media (max-width:1138px) {
+  .section-header2 {
+    width: 40%;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+    position: absolute;
+    z-index: 1;
+    font-size: 2.5em;
+    left: 6rem;
+    top: 15rem;
+  }
+
+  .section-text2 {
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    left: 6em;
+    top: 24em;
+  }
+}*/
+>>>>>>> Stashed changes
 
 /* Section 3 */
 
@@ -142,14 +204,13 @@ h1 {
 }
 
 .section-header3 {
-  width: 40%;
+  width: 40%x;
   line-height: 1em;
   margin-bottom: 0.5em;
   position: absolute;
   z-index: 1;
-  font-size: 3em;
-  right: 2em;
-  top: 6em;
+  right: 6rem;
+  top: 18rem;
 }
 
 .section-text3 {
