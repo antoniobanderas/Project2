@@ -1,0 +1,582 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  line-height: 1.5em;
+  /*background-color: black;*/
+}
+
+/*div {
+  display: block;
+}*/
+
+img {
+  height: auto; 
+  width: auto;
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 3em; 
+}
+
+a {
+  text-decoration: none;
+  color: #288BB2;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size:3.5rem;
+  line-height: 1em;
+  z-index: 1;
+  font-weight: 900;
+  color: #eee;
+}
+
+.fullscreen-img {
+  height: auto; 
+  width: auto;
+  max-width: 100%;
+}
+
+.header {
+	margin-top: 2em;
+}
+
+/* Styling for the navigation button */
+#nav-bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(30, 30, 30, 0.9);
+  z-index: 9999;
+}
+
+#logo {
+  display: inline-block;
+  position: relative;
+  top: 0.85em;
+  float: left;
+  left: 15em;
+}
+
+#logo-text{
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 1em 2em;
+  left: 14em;
+  color: white;
+}
+
+#nav-right {
+  position: relative;
+  float: right;
+}
+
+.button-nav-right {
+  float: right;
+  right: 15em;
+}
+
+.button-nav {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  padding: 1em 2em;
+  color: #FFF;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  color: #999;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+/* Styling for regular button */
+
+.button-regular {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em 0.75em;
+  color: #FFF;
+  background-color: #333;
+  border-radius: 0.5em;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.button-regular:hover, .button-regular:focus {
+  color: #999;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+/* Section 1 */
+
+.section1 {
+  background: url("../img/Security/Security2-edit.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.guard-service-section1 {
+  background: url("../img/Security/security1-edit.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.armored-truck-service-section1{
+  background: url("../img/armoured-truck/Nash_Bearcat.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.parking-management-service-section1{
+  background: url("../img/Parking/Parking3.jpeg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.protective-services-section1{
+  background: url("../img/Protective-Services/protective1.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.section1-content {
+  position: absolute;
+  top: 10em;
+}
+
+.section-header1,
+.section-header2,
+.section-header3,
+.section-header4,
+.section-header5 {
+  font-size:2.6rem;
+  line-height: 1em;
+  z-index: 1;
+  font-weight: 900;
+  color: #eee;
+}
+
+.section-text1 {
+  color:#eee;
+}
+
+.section-button1 {
+  position: absolute;
+  bottom: 15em;
+  min-width: 13%;
+  margin-left: 43.5%;
+  margin-right: 43.5%;
+  text-align: center;
+}
+
+.contact-section1 {
+  margin: 0;
+  max-width: 100%;
+  min-height: 36.4em;
+}
+
+.contact-h1 {
+  text-align: left;
+  position: absolute;
+  top: -2em;
+  color: black;
+}
+
+.contact-section-text1 {
+  text-align: left;
+  color: black;
+}
+
+/* Section 2 */
+
+.section2{
+  position: relative;
+  margin-top: -2em;
+  width:100%;
+  min-height:30em;
+  background-color: white;
+  display: block;
+}
+
+.locations-section2{
+  position: relative;
+  margin-top: -2em;
+  width:100%;
+  min-height:38.4em;
+  background-color: white;
+  display: block;
+}
+
+.section2-content {
+  position: relative;
+  top: 1em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  }
+
+.section-header2{
+ color: black;
+}
+
+.section-text2{
+}
+
+.world-map{
+  margin-top: 5em;
+  position: relative;
+  float: left;
+}
+
+.locations-world-map {
+  margin-top: 5em;
+  position: relative;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Section 3 */
+
+.guard-service-section3 {
+  position: relative;
+  margin-bottom: -1em;
+  background: url("../img/Security/Security4.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.armored-truck-service-section3{
+  position: relative;
+  margin-bottom: -1em;
+  background: url("../img/armoured-truck/knight-xv.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.parking-management-service-section3{
+  position: relative;
+  margin-bottom: -1em;
+  background: url("../img/Parking/Parking7.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.parking-management-section-header3 {
+  font-size:2.6rem;
+  line-height: 1em;
+  z-index: 1;
+  font-weight: 900;
+}
+
+.protective-services-section3{
+  position: relative;
+  margin-bottom: -1em;
+  background: url("../img/Protective-Services/protective2.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.section3 {
+    position: relative;
+    margin-bottom: -1em;
+
+    background: url("../img/general-security/372171576_99f0d8fb6d_o.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+    max-width: 100%;
+    height: 50em;
+  }
+
+.section3-content {
+  position: absolute;
+  min-height: 50em;
+  top: 10em;
+}
+
+.section-header3 {
+    text-align: left;
+  }
+
+.section-text3 {
+    text-align: left;
+    color: white;
+  }
+
+/* Section 4 */
+
+.section4 {
+  position: relative;
+  margin-bottom: -1em;
+  width:100%;
+  min-height:30em;
+  background-color: white;
+  display: block;
+}
+
+.services-section4 {
+  position: relative;
+  margin-bottom: -1em;
+  width:100%;
+  min-height:45em;
+  background-color: white;
+  display: block;
+}
+
+.services-section4-content {
+  position: absolute;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  top: 8em;
+}
+
+.section4-content {
+  position: absolute;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.section-header4 {
+  color: black;
+}
+
+.section4-icon {
+  height: 8em;
+  display: inline-block;
+}
+
+.services-section4-icon {
+  width: 10%;
+  height: 8em;
+  border: solid 1px #333;
+  margin: 3em 0.3em;
+  border-radius: 0.5em;
+  display: inline-block;
+}
+
+/* Section 5 */
+
+.section5 {
+  position: relative;
+  margin-bottom: -1em;
+
+  background: url("../img/Security/police2.png") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.guard-service-section5 {
+  position: relative;
+  margin-bottom: -1em;
+
+  background: url("../img/general-security/8275496299_8598cbe14a_o.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.armored-truck-service-section5{
+  position: relative;
+  margin-bottom: -1em;
+
+  background: url("../img/armoured-truck/2009-conquest-knight-xv-rear-angle-1024x768.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.parking-management-service-section5{
+  position: relative;
+  margin-bottom: -1em;
+
+  background: url("../img/Parking/Parking2.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+
+.protective-services-section5{
+  position: relative;
+  margin-bottom: -1em;
+
+  background: url("../img/Protective-Services/protective3.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  max-width: 100%;
+  height: 50em;
+}
+
+.section5-content {
+  position: absolute;
+  top: 15em;
+}
+
+.section-header5 {
+  text-align: left;
+}
+
+.section-text5 {
+  text-align: left;
+  color: white;
+}
+
+
+/* Text input box */
+form {
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+  margin-top: 1em;
+
+}
+
+label {
+  display: block; /* stack forms */
+  color: white;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  margin-left: -3.5em;
+}
+
+textarea {
+  width: 15em;
+  height: 5em;
+}
+
+input {
+  margin-left: -2em;
+}
+
+/* Get rid of ugly border on submit form button */
+input[type="submit"] {
+  display: block;
+  margin-top: 1em;
+  margin-left: 0em;
+}
+
+/* Styling for submit buttons */
+.button-submit {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  padding: 0.75em 0.5em;
+  color: #FFF;
+  background-color: #333;
+  text-decoration: none;
+}
+
+.button-submit:hover, .button-submit:focus {
+  background-color: #999;
+}
+
+/* Footer */
+
+#footer {
+  width: 100%;
+  height: 4em;
+  background-color: #333;
+  margin-top: -0.2em;
+  position: relative;
+  border-top: 4px solid #7c7c7c;
+}
+
+.footer-content {
+  max-width: 886px;
+  margin: auto;
+}
+
+.footer-comment {
+  float: left;
+  display: block;
+  margin-top: 1em;
+}
+
+.social-links {
+  float: left;
+  display: block;
+  margin-left: 1em;
+  margin-top: 0.9em;
+}
+
+.social-media-logos {
+  margin: 0em 0.2em;
+}
+
+.copyright {
+  float: right;
+  display: block;
+  margin-top: 1em;
+}
+
+
+
+
+
+/* Make footer responsive */
+
+/*@media (min-width:886px) {
+  .footer-comment {
+    text-align: center;
+
+    display: block;
+    margin-top: 1em;
+  }
+
+  .social-links {
+    display: block;
+    margin-left: 1em;
+    margin-top: 0.9em;
+  }
+
+  .social-media-logos {
+    margin: 0em 0.2em;
+  }
+
+  .copyright {
+    display: block;
+    margin-top: 1em;
+  }
+}*/
+
+
+
+
+
+
